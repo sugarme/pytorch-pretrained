@@ -4,3 +4,6 @@
 
 *.bin
 *.npz
+*.npy
+*.pth
+*.pt

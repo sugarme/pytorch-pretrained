@@ -12,7 +12,6 @@ config_path = BERT_PRETRAINED_CONFIG_ARCHIVE_MAP["bert-base-uncased"]
 vocab_path = PRETRAINED_VOCAB_FILES_MAP["vocab_file"]["bert-base-uncased"]
 weights_path = "bert-base-uncased"
 
-#  target_path = Path.home() / 'projects' / 'pytorch-pretrained' / 'bert'
 target_path = Path().absolute()
 
 temp_config = get_from_cache(config_path)
